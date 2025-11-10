@@ -10,6 +10,6 @@ import com.example.demo.model.Usuario;
 @Repository
 public interface IUsuarioRepository extends JpaRepository<Usuario, Integer> {
 	
-	Optional<Usuario> finByEmail(String email);
+	Optional<Usuario> findByEmail(String email);
 
 }
