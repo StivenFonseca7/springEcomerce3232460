@@ -26,7 +26,9 @@ public class Producto {
 		
 	}
 
-	public Producto(Integer id, String nombre, double precio, Integer stock, String descripcion, String imagen,
+	
+
+	public Producto(Integer id, String nombre, Double precio, Integer stock, String descripcion, String imagen,
 			Usuario usuario) {
 		super();
 		this.id = id;
@@ -37,6 +39,8 @@ public class Producto {
 		this.imagen = imagen;
 		this.usuario = usuario;
 	}
+
+
 
 	public Integer getId() {
 		return id;
